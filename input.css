@@ -5,3 +5,12 @@
   --text-Paragraph: 16px;
   --color-Sun: #f4d04e;
 }
+
+.inset-Shadow {
+  box-shadow: 12px 12px 1px #000;
+}
+
+.lineHeight150 {
+  line-height: 150%;
+  letter-spacing: 0px;
+}

@@ -12,18 +12,28 @@
   <title>Frontend Mentor | Blog preview card</title>
 <body class="font-Display bg-Sun">
 <main>
+  <!-- Main Container -->
   <div class="container flex w-full h-full">
-   <div class="w-74 h-auto mx-auto mt-[60px] rounded-3xl text-center bg-white">
-    <img src="/assets/images/illustration-article.svg" alt="Illustration Article Image" class="mx-auto w-[336px] h-[200px] p-5 rounded-3xl text-center" />
-  Learning
+    <!-- Card Container -->
+   <div class="w-[384px] h-[540px] mx-auto mt-30 rounded-3xl text-center bg-white border-black border-2 inset-Shadow">
+    <!-- Image Container -->
+     <div class="flex justify-center mx-auto rounded-3xl text-center pt-5 pl-5 pr-5 pb-2  ">
+    <img src="/assets/images/illustration-article.svg" alt="Illustration Article Image" class="w-[332px] h-[200px] "  />
+    </div>
+    <!-- Text Content Container -->
+    <div class="flex flex-col text-left p-5">
+    <p class="font-extrabold bg-Sun text-gray-950 w-fit p-3 rounded-md mb-4 leading-[150%] tracking-normal">Learning</p>
+    <p class="text-gray-950 font-bold text-sm mb-5 leading-[150%] tracking-normal">Published 21 Dec 2023</p> 
 
-  Published 21 Dec 2023
+  <h1 class="font-extrabold text-gray-950 text-[24px] mb-2 leading-[150%] tracking-normal hover:cursor-grabbing">HTML & CSS foundations</h1>
 
-  <h1 class="text-2xl font-extrabold">HTML & CSS foundations</h1>
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+  <p class="text-gray-500 mb-3 text-Paragraph leading-[150%] tracking-normal">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  <!--Container for Profile Picture and Name -->
+  <div class="flex flex-row">
+  <img src="assets/images/image-avatar.webp" alt="User Photo" class="h-[32px] w-[32px] mr-2"/> 
+  <p class="text-sm font-bold p-1 leading-[150%] tracking-normal">Greg Hooper</p>
+  </div>
+  </div>
   </div>
   </div>
   </main>
