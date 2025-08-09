@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-Display: 'Figtree', 'sans-serif';
+  --text-Paragraph: 16px;
+  --color-Sun: #f4d04e;
+}
